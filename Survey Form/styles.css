@@ -3,12 +3,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: black;
-    color: white;
+    color:white;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 20.5px;
 }
 .bg{
-    background-image: url(https://aircraft.leonardo.com/o/adaptive-media/image/17969291/h_703/F-35-JSF_1440760.jpg);
+    background-image: url(https://media.defense.gov/2012/Oct/16/2000105947/2000/2000/0/120919-F-JQ435-031.JPG);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -30,3 +30,19 @@ form {
     margin: 0 auto;
     padding-bottom: 2em;
 }
+textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:white;
+    border-color: white;
+    min-width: 300px;
+}
+
